@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const connectDB = require('./config/db');
-const errorHandler = require('./middleware/errorHandler');
+const errorHandler = require('./Middleware/errorHandler');
 
 // Load env vars
 dotenv.config();

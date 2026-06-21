@@ -1,6 +1,6 @@
 const express = require('express');
 const { updateProgress } = require('../controllers/progressController');
-const { protect } = require('../middleware/auth');
+const { protect } = require('../Middleware/auth');
 
 const router = express.Router();
 
